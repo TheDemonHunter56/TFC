@@ -1,6 +1,6 @@
 package org.sciborgs1155.robot.shooter;
 
-public interface ShooterIO {
+public interface ShooterIO extends AutoCloseable{
     /**
      * Sets the voltage of the motors
      * @param topVolt voltage to set the top motor to
